@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+font-family: 'Montserrat', sans-serif;
+}
+
+label, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+margin: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 10px;
+    z-index: 500;
+}
+
+h1 {
+    font-family: 'Arya';
+}
+
+h2 {
+    font-family: 'Arya';
+}
+
+body {
+    background-color: #F5F0E5;
+}
+
+input, textarea {
+  border: none;
+  border-radius: 8px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #D3D3D3;
+    padding: 3px;
+}
+
+input:focus, textarea:focus {
+    outline:none;
+}
+
+/*NAV*/
+nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      z-index: 1000;
+      display: flex;
+      justify-content: flex-end;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: grey;
+}
+
+.dropdown {
+  position: relative;
+  padding-bottom: 12px; /* creates an invisible hover bridge */
+}
+
+/* DROPDOWN MENU — hidden by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f0ede0;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 0;
+  min-width: 80px;
+  z-index: 100;
+  flex-direction: column;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 18px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  opacity: 0.5;
+}
+
+/* SHOW on hover */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-toggle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  content: ' ▾';
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.dropdown-toggle:hover {
+  color: grey;
+}
+
+/*ABOUT*/
+.image-heading-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.main-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#about-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  margin-top:50px;
+  z-index: 2;
+}
+
+#about-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin: 0;
+  padding-top: 70px;
+  item-height: 90px;
+}
+
+#bio {
+  font-size: 128px;
+  margin: 0;
+  margin-left: -30px;
+  padding: 0;
+  line-height: 1
+}
+
+#self-portrait {
+  width: 204px;
+  object-fit: cover;
+
+}
+
+.content-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.bio-paragraph {
+  margin: 12px 0 0 0;
+  font-size: 16px;
+  width: 280px;
+  position: relative;
+}
+
+#about-figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    padding-top: 8px;
+}
+
+.hand-photo-2 {
+    height: 400px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    margin-left: 750px;
+    margin-top: 400px;
+}
+.stars {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    margin-right: 650px;
+    margin-bottom:300px;
+    transform: rotate(10deg);
+}
+
+/*CONTACT*/
+
+#a-email:link {
+    color:black;
+}
+
+.contact-wrapper {
+    position: relative;
+}
+
+.contact-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    width: 100%;
+}
+
+.contact-star {
+    position: absolute;
+     height: 600px;
+     width: auto;
+     z-index: 0;
+     transform: rotate(200deg);
+     margin-right: 350px;
+     margin-top: -240px;
+
+ }
+
+.contact-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+
+}
+
+.contact-form {
+    margin: 20px;
+    z-index: 1;
+
+}
+
+.form-name {
+    display: flex;
+    z-index: 1;
+
+}
+
+.fa-brands, .fa-solid, .fa-regular{
+    margin-right:10px;
+    z-index: 1;
+
+}
+
+.insta {
+    margin-top: 0;
+    z-index: 1;
+
+}
+
+.first-name-input, .last-name-input {
+    margin-right: 7px;
+    width: 92.5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 20px;
+    z-index: 1;
+
+}
+
+.message-input, .email-input {
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 20px;
+    z-index: 1;
+}
+
+.message-input {
+    height: 50px;
+    z-index: 1;
+}
+
+.send-button {
+    border: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 154px;
+    z-index: 1;
+}
+
+/*LIFE DRAWING*/
+.figure-1, .figure-2, .figure-3, .figure-4, .figure-5, .figure-6, .figure-7, .figure-8, .figure-9 {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+  position: relative;
+  columns: 3;
+  column-gap: 1rem;
+  z-index: 2;
+}
+
+.figure-6 {
+    width: 910px;
+    margin-left: 35px;
+    margin-top: -110px;
+}
+
+.life-drawing-hand {
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.life-drawing-h {
+    position: relative;
+    margin-left: 37px;
+    font-size: 64px;
+    margin-bottom: -20px;
+    z-index: 2;
+}
+
+.life-drawing-star {
+    position: relative;
+     height: 600px;
+     width: auto;
+     position: absolute;
+     z-index: 1;
+     transform: rotate(30deg);
+     margin-top: -200px;
+}
+
+/*COMICS*/
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.overlay:target {
+    display: flex;          /* shown when #popup is in the URL */
+}
+
+.popup-img-1 {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.overlay-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.comic-image-1 {
+    width: 500px;
+}
+
+.comic-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.comic-text-1 {
+    margin-top: -20px;
+}
+
+/*MISC*/
+.misc-hand {
+    width: 600px;
+    margin-left: 800px;
+    margin-top: -600px;
+}
+
+/*CV*/
+.cv-h {
+    position: relative;
+text-align: center;
+    font-size: 64px;
+    margin-bottom: -20px;
+    z-index: 2;
+}
+
+.cv-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 20px;
+}
+
+.cv-button {
+    padding: 12px 28px;
+    border: 2px solid currentColor; /* matches your site's text color */
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cv-img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; /* space between page 1 and page 2 */
+    width: 100%;
+    max-width: 800px;
+    padding: 0 80 0 80;
+}
+
+.cv-img,
+.cv-img-2 {
+    width: 100%;
+    height: auto; /* keeps aspect ratio */
+    border-radius: 8px;
+}
+
+.cv-hand1 {
+     width: 400px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transform: rotate(-30deg);
+}
+
+.cv-hand2 {
+   position: absolute;
+       bottom: 0;
+       right: -50px;
+       width: 400px;
+}
+
+.cv-body {
+
+position: relative;
+    min-height: 100vh;
+}
+
+/*DESIGN*/
+
+.star-app-img, .star-app-video, .be-img, .be-img2, .tw-img{
+    height: 300px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.star-app-div, .be-div, .tw-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 37px;
+    margin-bottom: 5px;
+}
+
+.industrial-design {
+    display: flex;
+    flex-direction: row;
+    margin-left: 37px;
+}
+
+.design-p {
+    width: 400px;
+     z-index: 1;
+     position: relative;
+}
+
+.design-h {
+    position: relative;
+    margin-left: 37px;
+    font-size: 64px;
+    margin-bottom: -20px;
+}
+
+.wm-img, .ba-img {
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.industrial-p {
+    width: 545px;
+}
+
+.design-star {
+    width: 400px;
+    position: absolute;
+    bottom: -600px;
+    right: -50px;
+    transform: rotate(-30deg);
+    }
+
+.design-star0 {
+    width: 400px;
+    position: absolute;
+    z-index: 0;
+}
+
+.design-body {
+    overflow-x: hidden;
+}
