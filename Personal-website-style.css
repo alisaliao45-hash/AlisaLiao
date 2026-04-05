@@ -538,3 +538,116 @@ position: relative;
 .design-body {
     overflow-x: hidden;
 }
+
+/*Lost Stop*/
+.loststop img {
+    width: 580px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.loststop figcaption {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lost {
+    position: relative;
+    z-index: 2;
+}
+.loststopcomic {
+    display: flex;
+    justify-content: center;
+}
+
+.char-4 {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    margin-bottom: 32px;
+}
+
+.char-1, .char-2 {
+    display: flex;
+    gap: 0px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.loststop figcaption {
+    width: 580px;
+}
+
+.fig-char, .fig-char-2, .fig-char-3, .fig-char-4 {
+    margin: 0px;
+}
+
+.char-h, .key-h {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.key-h {
+    margin-bottom: -15px;
+}
+
+.keyframes {
+    display: grid;
+      place-items: center; /* Centers both vertically and horizontally */
+}
+
+.lost {
+    margin-bottom: 50px;
+}
+
+.loststop-star {
+    position: relative;
+    height: 600px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(30deg);
+}
+
+.loststop-h  {
+    margin-left: 37px;
+    font-size: 64px;
+    margin-bottom: -20px;
+}
+
+.loststop-p, .loststop-h2 {
+    margin-left: 37px;
+
+}
+
+/*angel*/
+.angel-img {
+    width: 710px;
+    border-radius: 8px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+}
+
+.angel-img-1, .angel-img-2 {
+    width: 350px;
+    border-radius: 8px;
+    margin: 5px;
+
+}
+
+.char-angel {
+    margin-bottom: 5px;
+display: flex;
+    justify-content: center;
+}
+
+.angel-h {
+    margin-left: 37px;
+    font-size: 64px;
+    margin-bottom: -20px;
+}
+
+.angel-p {
+    margin-left: 37px;
+}
